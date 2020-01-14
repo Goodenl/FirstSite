@@ -1,0 +1,57 @@
+.active-lmm{top:0; left:0; position: fixed; width: 100px; height: 100%;
+	background-color: #000000; z-index: 2;
+
+	transition-timing-function: ease-out;
+	transition-duration: 0.35s;
+}
+
+.active-lmm > ul{position:absolute; left:-10px; width: inherit; height: 100vh;}
+
+.active-lmm > ul > li { width: 80px; height: 20px; position: relative; left: -5px;
+	margin-top: calc(100vh/8);
+	transition-timing-function: ease-in;
+	transition-duration: 0.25s;
+	color: #000000;
+	
+}
+
+.active-lmm > ul > li:hover { width: 90px; position: relative; left: -15px;
+
+	color: red;
+	transition-timing-function: ease-out;
+	transition-duration: 0.35s;
+}
+
+.active-lmm > ul > li > p > a {
+	position: relative;
+	left: -5px;
+	color: white;
+	font-size: 16px;
+	cursor:default;
+
+	transition-timing-function: ease-in;
+	transition-duration: 0.25s;
+
+	border-bottom: solid 2.5px red;
+}
+
+.active-lmm > ul > li > p > a:hover{
+
+	transition-timing-function: ease-in;
+	transition-duration: 0.25s;
+
+	border-bottom: solid 2.5px blue;
+	border-radius: 4px;
+}
+
+.active-lmm > ul > a > p{
+	color: white;
+	font-size: 12px;
+
+}
+
+#copyra{
+	position: relative;
+	bottom: -25px;
+	left: -10px;
+}

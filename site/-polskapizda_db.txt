@@ -1,0 +1,38 @@
+-polskapizda_db
+	-post_video
+		-id
+		-video_code
+		-title
+		-author
+		-views
+		-rate
+		-category_id
+		-datepub
+
+	-post_photo
+		-id
+		-photo_code
+		-title
+		-author
+		-views
+		-rate
+		-category_id
+		-datepub
+
+	-comments_video
+		-id
+		-author
+		-text
+		-datepub
+		-rate
+
+	-comments_photo
+		-id
+		-author
+		-text
+		-datepub
+		-rate
+
+	-category
+		-id
+		-title

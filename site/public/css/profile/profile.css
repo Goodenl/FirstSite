@@ -1,0 +1,131 @@
+
+#head-paralax{
+	position: relative;
+	min-width: 100%;
+	height: 300px;
+
+	display: flex;
+	align-items: center
+}
+
+#foot-paralax{
+	position: absolute;
+	top:300px;
+	
+	min-width: 100%;
+	min-height: 100vh;
+	background-color: #5B1515;
+
+	display: flex;
+	flex-direction: row;
+}
+
+div.btn-box{
+	background-color: black;
+	min-width: 300px;
+	max-height: 25px;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+ 
+	flex-grow: 1;
+}
+
+.usr-btn{
+	background-color: #D40000;
+	border-radius: 3.5px;
+
+	border: none;
+
+	text-shadow: 0 0 1px black;
+	color: white;
+}
+button.usr-btn{
+	height: 25px;
+
+	text-shadow: 0 0 8px black;
+	font-size: 16px;
+}
+#usr-img{
+	position: relative;
+	top: 80px;
+
+	width: 400px;
+	height: 400px;
+
+	margin-left: auto;
+    margin-right: auto;
+
+}
+
+#usr-img > img{
+	height: inherit;
+	width: inherit;
+
+	border-radius: 50%;
+
+	z-index: -1;
+	
+    border: 2px solid blue;
+}
+
+.user-setting{
+	background-color: #7289DA;
+	border-radius: 3.5px;
+
+	padding: 2px;
+
+	position: absolute;
+	top: 0.3%;
+	right: 0.3%;
+	z-index: 3;
+}
+
+.upload-video-box{
+	position: absolute;
+	display: flex;
+	align-items: center;
+	
+	top: 0.3%;
+	right: 5.0%;
+
+	margin: 0.2%;
+
+    background-color: #003d19;
+	border-radius: 4px;	
+
+	transform: scale(0.9);
+	z-index: 1;
+}
+
+.upload-video-box > *{
+	margin: 4px;
+}
+
+#list{
+	top: 45px;
+	width: 100%;
+	height: 200px;
+	display: inline-block;
+	position: relative;
+}
+
+.list-btn{
+	width: 100%;
+	height: 10px;
+	display:none;
+
+	background: #fff;
+	position: relative;
+}
+
+.user-video-list{
+
+}
+
+.like-list{
+
+}
+
+.history-list{
+
+}

@@ -1,0 +1,23 @@
+.row{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.row>.video{
+	position: relative;
+	display: block;
+	margin-left: 30px;
+	margin-top: 100px;
+	width: 400px;
+	height: 225px;
+	background-color: black;
+}
+
+.video>#title{
+	background-color: #fff;
+}
+
+.video>#rating{
+	background-color: #ccc;
+}

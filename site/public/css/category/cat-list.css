@@ -1,0 +1,29 @@
+
+.catbox{
+	position: relative;
+	top: 120px;
+	width: 352px;
+	margin-top: 20px;
+	background-color: #ccc;
+	text-align: center;
+
+	margin: 2%;
+	display: inline-block;
+}
+
+.cat-img{
+	width: 352px;
+	height: 240px;
+	background-color: #fff;
+}
+
+#cat-btn{
+	position: relative;
+}
+
+#row{
+	width: 100%;
+	position: relative;
+
+	text-align: center;
+}

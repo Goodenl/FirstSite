@@ -1,0 +1,48 @@
+html,body{margin: 0; padding: 0;}
+
+body{ background-color: #5B1515; }
+
+#left-side{
+	display: block;
+	width: 49%;
+	margin-top: 60px;
+	background-color: #cfc;
+	text-align: center;
+}
+
+#left-side>#title-video{
+	
+}
+
+#right-side{
+	display: block;
+	position: relative;
+	width: 50%;
+	margin-top: -7.5%;
+	margin-left: 50%;
+	background-color: #fff;
+	text-align: center;
+}
+
+#right-side>*{
+}
+
+#right-side>#cat-select, label{
+	position: relative;
+	display: inline-block;
+	width: 40px;
+	background-color: #ccc;
+}
+
+#select-image{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	background-color: #ccc;
+	width: 320px;
+	height: 180px;
+}
+
+#select-image>#label-path-img{
+	width: 145px;
+}

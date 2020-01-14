@@ -1,0 +1,48 @@
+#login-box{
+	height: 150px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.login-form{
+	min-width: 250px;
+	height: 150px;
+
+	top: -200px;
+
+	display: none;
+	position: relative;
+	
+	padding: 5px;
+	
+	border: 1px solid black;
+	border-radius: 4px;
+	background-color: #5B2323;
+}
+
+.login-popup > form > input{
+	width: 132px;
+	margin: 5px;
+}
+
+#preview{
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+	width: 70%;
+	height: 450px;
+	border: 4px solid black;
+	border-radius: 3px;
+}
+
+#btn_log{
+	max-height: 25px;
+	min-height: 25px;
+
+	background-color: #47a03d;
+	border-radius: 3.5px;
+	border:none;
+}

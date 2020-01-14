@@ -1,0 +1,18 @@
+#prfl-btn{
+	font-size: 18px;
+	padding: 5px;
+	background-color: #AF2828;
+	color: black;
+	left: 10px;
+	border-radius: 2px;
+}
+
+.dropMenu{ display: none; top: 40px;
+	
+	padding: 10px;
+	min-width: 80px; 
+	background-color: black;
+	border-radius: 3px;
+}
+
+.profile-box{ top: 20px; position:fixed; right: 10px;}
